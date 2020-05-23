@@ -1,0 +1,143 @@
+
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Marik-gym</title>
+	<link rel="stylesheet" href="css/dark.css">
+	<script src="JavaScript/form2.js"></script>
+</head>
+<body>
+
+
+	<header>
+         <div class="switch">
+    				<input type="checkbox" id="switch-1" class="switch-check">
+    				 <label for="switch-1" class="switch-label">
+       						 Опция
+       				    <span class="switch-slider switch-slider-on"></span>
+       				    <span class="switch-slider switch-slider-off"></span>
+   					 </label>
+ 				 </div>
+	<nav>
+		<div class="container">
+				<img src="img/logo.png" alt="Marik-gym" class="logo" id="logo">
+				<input type="checkbox" id="checkbox-menu">
+				<label for="checkbox-menu">
+					<ul class="menu touch">
+						<li>
+							<a href="#">Тренери</a>
+							
+						</li>
+						<li>
+							<a href="#">Ціни</a>
+							<ul>
+								<!--<li><a href="#">Сауна</a></li>
+								<li><a href="#">Басейн</a></li>
+								<li><a href="#">Бокс</a></li>-->
+								<li><a href="price-table.html">Групові</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Новини</a>
+						</li>
+						<li>
+							<a href="#">Фото</a>
+						</li>
+						<li>
+							<a href="#">Контакти</a>
+						</li>
+					</ul>
+					<span class="toggle">☰</span>
+					</label>
+
+			<div class="titles">
+				<div class="titles__first">
+					Marik-gym
+				</div>
+				<h1>
+					Ми завжди раді вас бачити!
+				</h1>
+			</div>
+			<a class="button" href="#" onclick="buttonClick(this)">Переглянути більше</a>
+		</div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+        
+	</nav>
+	</header>
+
+
+	<section id="services">
+		<div class="container">
+			<div class="title">
+				<h2>
+					Професіонали рекомендують "Marik-Gym"
+				</h2>
+				
+			</div>
+			<div class="services clearfix">
+				<div class="services__item">
+					<img src="img/icon1.png" alt="Клієнт" class="round">
+					<h3>Віталій Вірастюк</h3>
+					<p>
+						Коли я у Львові то завжди відвідую “Marik-gym“
+					</p>
+				</div>
+				<div class="services__item">
+					<img src="img/icon2.png" alt="Клієнт" class="round">
+					<h3>Володимир Рекша</h3>
+					<p>
+						Я в “Marik-gym“ щодня- приходьте потренуємось!
+					</p>
+				</div>
+				<div class="services__item">
+					<img src="img/icon3.png" alt="Клієнт" class="round">
+					<h3>Сергій Конюшок</h3>
+					<p>
+						Найкращі зали у Львові- це “Marik-gym“!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio">
+		<div class="container">
+			<div class="title">
+				<h2>
+					Фото
+				</h2>
+				
+			</div>
+			<div class="works clearfix">
+				<img src="img/img1.jpg" alt="Gym">
+				<img src="img/img2.jpg" alt="Gym">
+				<img src="img/img3.jpg" alt="Gym">
+				<img src="img/img4.jpg" alt="Gym">
+
+			</div>
+		</div>
+	</section>
+	<footer id="local">
+
+		<h3>Контакти</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.640016021112!2d23.983944515674278!3d49.8116350793924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e8652aef764ecc6!2z0KTQuNGC0L3QtdGBINC60LvRg9CxICJQcmVtaXVtIg!5e0!3m2!1sru!2sua!4v1581866218352!5m2!1sru!2sua" width="700" height="400" frameborder="0" style="border:0;" allowfullscreen="" class="map"></iframe>
+			<main>
+				<form id="form" action="index.html" onsubmit="lb5(); return false">
+			
+					<p><input type="text" required name="fname" class="feedback" placeholder="Ім'я" id="fname"> </p>
+					<p><input type="text" required name="lname" class="feedback" placeholder="Прізвище" id="lname"> </p>
+					<p><input type="email" name="email" class="feedback" placeholder="Електронна скринька" id="email"> </p>
+					<p><input type="tel" name="tel" class="feedback" pattern="[0-9]{12}" placeholder="Телефон(380...)" id="tel"> </p>
+					<p> <textarea name="text" id="comment" class="feedback"placeholder="Введіть ваше повідомлення"></textarea></p>
+					<input id="section-form-submit" type="submit" value="Submit" >
+
+					<div class="ease"></div>
+				</form>
+			</main>
+	</footer>
+<script src="JavaScript/form2.js"></script>
+</body>
+</html>
+
+
+
